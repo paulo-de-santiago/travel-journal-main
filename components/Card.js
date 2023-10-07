@@ -20,7 +20,7 @@ export default function Card(props) {
               alt="location icon"
             />
             <p className="card--p">{props.location}</p>
-            <a className="a--card" href={props.googleMapsUrl}>
+            <a className="a--card" href={props.googleMapsUrl} target="_blank">
               View on Google maps
             </a>
           </div>

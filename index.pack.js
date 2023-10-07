@@ -529,7 +529,7 @@ function Card(props) {
           ),
           _react2.default.createElement(
             "a",
-            { className: "a--card", href: props.googleMapsUrl },
+            { className: "a--card", href: props.googleMapsUrl, target: "_blank" },
             "View on Google maps"
           )
         ),
