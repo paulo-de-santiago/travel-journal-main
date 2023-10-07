@@ -3,8 +3,8 @@
 }
 
 body {
-  min-width: 500px;
-  margin: 0;
+/*   min-width: 500px;
+  margin: 0; */
   font-family: 'Inter', sans-serif;
   color: #2B283A;
   font-style: normal;
@@ -13,7 +13,10 @@ body {
 }
 
 .app--container {
-  margin: auto 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Navbar Component */
@@ -28,7 +31,7 @@ body {
 .navbar {
   /* Layout */
 
-  width: 500px;
+  width: 600px;
   height: 55px;
   flex-shrink: 0;
 
