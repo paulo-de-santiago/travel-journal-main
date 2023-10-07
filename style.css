@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 500px;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  color: #2B283A;
+  font-style: normal;
+  line-height: normal;
+
+}
+
+.app--container {
+  margin: auto 50px;
+}
+
+/* Navbar Component */
+
+.navbar, 
+.navbar--div {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.navbar {
+  /* Layout */
+
+  width: 500px;
+  height: 55px;
+  flex-shrink: 0;
+
+/* Style */
+  background: #F55A5A;
+}
+
+.navbar--div {
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar--p {
+    /* Typography */
+    color: #FFF;
+    font-size: 14.461px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-left: 5px;
+    
+}
+
+
+/* Card Component */
+
+
+
+
+.card--container {
+  display: flex;
+  align-items: space-around;
+  margin: 25px;
+  width: 550px;
+  }
+
+.img--location-icon {
+  width: 14px;
+  height: 11px;
+/*   flex-shrink: 0; */
+}
+
+.card--body-header { 
+  justify-content: start;
+}
+
+.card--body {
+   width: 450px;
+   margin-left: 30px;
+   margin-right: 200px;
+   margin-top: 10px;
+
+}
+
+.card--p {
+  /* Typography */
+  font-size: 10.24px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.741px;
+  
+  padding-left: 4px;
+}
+
+.a--card {
+  margin-left: 15px;
+}
+
+
+.img--card {
+   min-width: 125px;
+   height: 200px;
+   width: 100%;
+   border-radius: 9px;
+   margin-bottom: 9px;    
+} 
+
+
+
+
+a {
+  /* Layout */
+  width: 106px;
+  height: 13px;
+  flex-shrink: 0;
+  
+  /* Typography */
+  color: #918E9B;
+  font-size: 10.24px;
+  font-weight: 400;
+  text-decoration-line: underline;
+}
+
+.card-h1 {
+  /* Layout */
+  width: 326px;
+  height: 40px;
+  flex-shrink: 0;
+  
+  /* Typography */
+  font-size: 25px;
+  font-weight: 700;
+  line-height: normal;
+  
+  margin-top: 0;
+  margin-bottom: 30px;
+  
+}
+
+.card-h2 {
+  font-size: 10.24px;
+  font-weight: 700;
+}
+
+.card--p-text {
+  color: #2B283A;
+  font-family: Inter;
+  font-size: 10.24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 15.36px */
+
+
+}
+
+.card--body-header {
+  display: flex;
+  align-items: center;
+}
